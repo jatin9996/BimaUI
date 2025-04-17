@@ -1,0 +1,29 @@
+.stability_pool {
+    @apply rounded-2xl;
+    div.head {
+      @apply flex items-center justify-between;
+      @include common_padding_lg;
+      h1._h1 {
+        @apply text-2xl;
+        font-weight: 600;
+        font-size: 32px;
+      }
+      h1._h3 {
+        @apply text-2xl;
+        font-weight: 600;
+        font-size: 22px;
+      }
+      button {
+        @apply rounded-full  p-1;
+      }
+    }
+    .tbl_div{
+      border-top-style: dashed;
+      border-top-width: 1px;
+    }
+  }
+  .all_pools{
+    @extend .stability_pool;
+    @apply mt-5;
+  }
+  

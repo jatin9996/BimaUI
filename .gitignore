@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+
+# Next.js static files
+*.log
+*.lock
+*.lockfile
+.DS_Store
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel / Now
+.vercel
+.now
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Next.js type-checking cache
+.next/cache
+
+# Build artifacts
+build
+dist
+
+# Coverage directory used by testing tools
+coverage
+
+# Miscellaneous
+.vscode
+.idea
+*.swp
+*.swo
+*.gz

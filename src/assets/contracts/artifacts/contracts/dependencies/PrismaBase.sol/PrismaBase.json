@@ -1,0 +1,74 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "PrismaBase",
+  "sourceName": "contracts/dependencies/PrismaBase.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_gasCompensation",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "CCR",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "DEBT_GAS_COMPENSATION",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "DECIMAL_PRECISION",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "PERCENT_DIVISOR",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a060405234801561001057600080fd5b5060405161014438038061014483398101604081905261002f91610037565b608052610050565b60006020828403121561004957600080fd5b5051919050565b60805160dc61006860003960006068015260dc6000f3fe6080604052348015600f57600080fd5b506004361060465760003560e01c80634870dd9a14604b5780634ba4a28b1460645780635733d58f14608a578063a20baee6146098575b600080fd5b605260c881565b60405190815260200160405180910390f35b60527f000000000000000000000000000000000000000000000000000000000000000081565b60526714d1120d7b16000081565b6052670de0b6b3a76400008156fea26469706673582212207ad989413aaf5e30bfd77bd001b8a5044d50439cc769cb99f592818f0d4d517f64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060465760003560e01c80634870dd9a14604b5780634ba4a28b1460645780635733d58f14608a578063a20baee6146098575b600080fd5b605260c881565b60405190815260200160405180910390f35b60527f000000000000000000000000000000000000000000000000000000000000000081565b60526714d1120d7b16000081565b6052670de0b6b3a76400008156fea26469706673582212207ad989413aaf5e30bfd77bd001b8a5044d50439cc769cb99f592818f0d4d517f64736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

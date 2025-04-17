@@ -1,0 +1,34 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IAragon",
+  "sourceName": "contracts/staking/Curve/CurveProxy.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_voteData",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "_supports",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "_executesIfDecided",
+          "type": "bool"
+        }
+      ],
+      "name": "vote",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

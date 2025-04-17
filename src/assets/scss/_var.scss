@@ -1,0 +1,12 @@
+@mixin common_padding_lg {
+  padding: 16px 28px 16px 28px;
+  @media screen and (max-width: 768px){
+    padding: 5px 5px 5px 5px;
+  }
+}
+@mixin common_padding_sm {
+  padding: 4px 8px 4px 8px;
+  @media screen and (max-width: 768px){
+    // padding: 4px 8 4px 0;
+  }
+}
